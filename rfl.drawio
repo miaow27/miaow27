@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T23:15:23.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="z-_ngNOs61Gulu-HhtB8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T23:17:18.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="VWoxim6iW_M9POJbiyOo" type="github">
   <diagram id="JimvKLFMV4bd7w0cs6DW" name="Page-1">
     <mxGraphModel dx="1470" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="R-19UEIqgZbKDTWxE5e_-13" value="Monthly X individual, what EAP Service are eligible, how many session&lt;br&gt;Only Availble for those with medical claims" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="625" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R-19UEIqgZbKDTWxE5e_-14" value="EAP Service details. Each occurred F2F session, telephonic session, WLS session one line (unique per date)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="715" width="270" height="30" as="geometry" />
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-14" value="EAP Service details. Each occurred F2F session, telephonic session, WLS session one line (unique per date). For F2F session, useful to group sessions that fall under the same authorization (authorization number?).&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="722.5" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R-19UEIqgZbKDTWxE5e_-15" value="Additional Information for each type of service,&lt;br&gt;For example, authorized F2F or different issues related to the same WLS session&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="815" width="260" height="30" as="geometry" />
