@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T22:48:58.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="sQOZ_MtIHmkNFtz3nGC9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T23:15:23.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="z-_ngNOs61Gulu-HhtB8" type="github">
   <diagram id="JimvKLFMV4bd7w0cs6DW" name="Page-1">
     <mxGraphModel dx="1470" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,10 +17,49 @@
           <mxGeometry x="260" y="130" width="510" height="70" as="geometry" />
         </mxCell>
         <mxCell id="R-19UEIqgZbKDTWxE5e_-5" value="This is at member level, based on their plan sponsor&#39;s eligibility" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="240" width="360" height="30" as="geometry" />
+          <mxGeometry x="280" y="240" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R-19UEIqgZbKDTWxE5e_-6" value="This is the claim detail based on actual number of billed claims&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="330" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-7" value="&lt;h1&gt;Proposed Data Schema&amp;nbsp;&lt;/h1&gt;&lt;p&gt;3 Types of Service: F2F, Telephonic, WLS&amp;nbsp;&lt;/p&gt;&lt;p&gt;Two Level of Eligibility: PS and Member (only available for with Aetna medical)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="440" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-8" value="Service X Tables" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-9" value="EAP Service Claim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-10" value="PS EAP Eligibility" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-11" value="Member EAP Eligibility" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-12" value="Monthly X ps, what EAP Service are eligible, how many session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="545" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-13" value="Monthly X individual, what EAP Service are eligible, how many session&lt;br&gt;Only Availble for those with medical claims" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="625" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-14" value="EAP Service details. Each occurred F2F session, telephonic session, WLS session one line (unique per date)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="715" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-15" value="Additional Information for each type of service,&lt;br&gt;For example, authorized F2F or different issues related to the same WLS session&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="815" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-16" value="only useful for denominator&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="620" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-17" value="only useful for denominator&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="555" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-20" value="this seems to be the most important and useful for evaluation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="707.5" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-21" value="if we want some filter/deep dive for exploratory.&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="815" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
