@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T22:09:56.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zg9mVAl8Fj1xDn4tzgBC" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T17:29:38.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="32xg2l4Ed1cKvSWZYKZE" version="20.8.3" type="github">
   <diagram id="JimvKLFMV4bd7w0cs6DW" name="Page-1">
-    <mxGraphModel dx="1482" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,9 +60,6 @@
         </mxCell>
         <mxCell id="R-19UEIqgZbKDTWxE5e_-21" value="if we want some filter/deep dive for exploratory.&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="815" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hEl_XSXgUvuKR03yrWPJ-1" value="All Data are &lt;b&gt;only &lt;/b&gt;populated for RFL user who also have Aetna Medical as well as those users&#39; family members.&amp;nbsp;&lt;br&gt;If we crosswalk from patientID to individual, then we would loose those family member who do not have Aetna Medical claims.&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="50" width="690" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
