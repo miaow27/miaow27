@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T17:29:38.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="32xg2l4Ed1cKvSWZYKZE" version="20.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T15:37:09.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zgyfFXcjd2Z7ey0lmFDB" version="20.8.3" type="github">
   <diagram id="JimvKLFMV4bd7w0cs6DW" name="Page-1">
     <mxGraphModel dx="1088" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="R-19UEIqgZbKDTWxE5e_-3" value="F2F Eligibility" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R-19UEIqgZbKDTWxE5e_-4" value="This is at the plan sponsor level, based on start and end date.&amp;nbsp;&amp;nbsp;&lt;br&gt;Also, do we really need this if the member already request / did F2F? - Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="305" y="145" width="420" height="40" as="geometry" />
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-4" value="This is at the plan sponsor level, based on start and end date.&amp;nbsp;&amp;nbsp;&lt;br&gt;Also, do we really need this if the member already request / did F2F?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="290" y="150" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R-19UEIqgZbKDTWxE5e_-5" value="This is at member level, based on their plan sponsor&#39;s eligibility" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="280" y="240" width="360" height="30" as="geometry" />
@@ -40,7 +40,7 @@
         <mxCell id="R-19UEIqgZbKDTWxE5e_-12" value="Monthly X ps, what EAP Service are eligible, how many session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="545" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R-19UEIqgZbKDTWxE5e_-13" value="Monthly X individual, what EAP Service are eligible, how many session&lt;br&gt;Only Availble for those with medical claims" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="R-19UEIqgZbKDTWxE5e_-13" value="Monthly X individual, what EAP Service are eligible, how many session&lt;br&gt;Only Available for those with successful cross walk &amp;amp; medical claims" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="625" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R-19UEIqgZbKDTWxE5e_-14" value="EAP Service details. Each occurred F2F session, telephonic session, WLS session one line (unique per date). For F2F session, useful to group sessions that fall under the same authorization (authorization number?).&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="R-19UEIqgZbKDTWxE5e_-21" value="if we want some filter/deep dive for exploratory.&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="815" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="koQEFHwybIsiy59HKFZg-1" value="&lt;b&gt;Hadoop EAP Data is not a complete view.&amp;nbsp;&lt;/b&gt;&lt;br&gt;Only Plan sponsor with Aetna benefit will be loaded in Hadoop due to business and firewall reason." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="650" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
