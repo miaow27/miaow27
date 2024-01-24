@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2024-01-24T23:35:11.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ed52hZ2djsHGbcWYRgpc" version="21.6.2" type="github">
+  <diagram name="Page-1" id="TjVeeE-bJ644JjcEta67">
+    <mxGraphModel dx="1328" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;EPDB&amp;nbsp;&lt;br&gt;Provider&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-1010" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;EDW Claims&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-1010" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="-920" as="sourcePoint" />
+            <mxPoint x="130" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-4" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174.5" y="-920" as="sourcePoint" />
+            <mxPoint x="174.5" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249.5" y="-920" as="sourcePoint" />
+            <mxPoint x="210" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-7" value="&lt;b&gt;Internal &lt;br&gt;Baseline &lt;/b&gt;BH Prvdr Data&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="125" y="-860" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="-741" as="sourcePoint" />
+            <mxPoint x="170" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-10" value="Web Scraper &lt;br&gt;Engine&lt;br&gt;(Python)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="87.5" y="-510" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-12" value="Consolidate &lt;br&gt;Engine&amp;nbsp;&lt;br&gt;(Python, LLM)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="87.5" y="-340" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-14" value="&lt;b&gt;Consolidated&lt;/b&gt;&lt;br&gt;BH Prvdr Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-345" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;EAP&amp;nbsp;&lt;br&gt;Claims&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="230" y="-1005" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-18" value="Provider Filter" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="95" y="-680" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-26" value="Gather best possible external data to augment current provider information, append information such as phone number, next availability, accept new patient" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="-502.5" width="232.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-28" value="Utilize internal data source to score a provider&#39;s activeness. &lt;br&gt;Remove &lt;b&gt;&lt;i&gt;highly inactive providers&lt;/i&gt;&lt;/b&gt; from the list. Rule-based or ML.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-672.5" width="232.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-30" value="Consolidate all the information (internal or external) into a final tabular format with ChatGPT&#39;s capability of processing text (Web), weighting different data source based on preferred priority" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="-345" width="232.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-34" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174.5" y="-410" as="sourcePoint" />
+            <mxPoint x="174.5" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-35" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="-305.5" as="sourcePoint" />
+            <mxPoint x="610" y="-305.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-36" value="Final Consolidated BH Prvdr &lt;br&gt;data that has best accurate phone number, next availability, licensed state, accept new patient etc&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="770" y="-340" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-37" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.5" y="-370" as="sourcePoint" />
+            <mxPoint x="689.5" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-38" value="Provider Activeness&lt;br&gt;Scoring" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="610" y="-520" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-39" value="Based on the final consolidated BH Prvdr data, create a confidence score of how likely the provider is active within the next 6 months.&amp;nbsp;ML based.&amp;nbsp;&lt;br&gt;Data: consolidated internal &amp;amp; external" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="807.5" y="-520" width="202.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-40" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1610" y="-800.5" as="sourcePoint" />
+            <mxPoint x="1670" y="-800.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-41" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="-835" as="sourcePoint" />
+            <mxPoint x="1660" y="-890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-42" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174.5" y="-580" as="sourcePoint" />
+            <mxPoint x="174.5" y="-540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-45" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.5" y="-640" as="sourcePoint" />
+            <mxPoint x="689.5" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-46" value="&lt;b&gt;Validated&lt;/b&gt;&lt;br&gt;BH Prvdr Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-800" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-47" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-48" value="Manual Validation&amp;nbsp;&lt;br&gt;for Medium-Low confidence Prvdr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-720" width="162.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-49" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="-580" as="sourcePoint" />
+            <mxPoint x="860" y="-640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-50" value="High Confidence Prvdr?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-51" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="807.5" y="-617.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-54" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="-740" as="sourcePoint" />
+            <mxPoint x="760" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y0CWCf-vrmVGF1hzHRmy-55" value="Only Validated Prvdr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="785" y="-790" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qqAPJzGaAdO9q2L2U7it-1" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Primary Goal: remove &quot;ghost&quot; provider&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Secondary Goal: provide more updated /correct provider information&amp;nbsp;&lt;/li&gt;&lt;li&gt;How good is the Provider Activeness scoring if we only use internal data?&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Yes, Quick win&lt;/li&gt;&lt;li style=&quot;&quot;&gt;No, Need to gather external data&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;maybe only minimum for now&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Psychology Today&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Alma, Headway&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="-990" width="440" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
