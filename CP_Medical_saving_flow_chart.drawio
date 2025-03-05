@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="IcREAzw2sgQeLnBdoRqM">
-    <mxGraphModel dx="1430" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2073" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,17 +100,20 @@
         <mxCell id="AfprsVkvONHFLmgtK5Du-27" value="&lt;div&gt;Can we understand the entire flow of how CM is tracking and reporting value?&lt;/div&gt;How is the current MCS calculation (case-mix) used in the current CM value tracking activity?&amp;nbsp;&lt;div&gt;- what role does it play?&amp;nbsp;&lt;/div&gt;&lt;div&gt;- how can we improve it beside improving methodology?&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="20" width="540" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="l7MfA0_JG0b9wX_z2qGO-1" value="Tracking" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="l7MfA0_JG0b9wX_z2qGO-1" value="Tracking" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="175" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l7MfA0_JG0b9wX_z2qGO-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="l7MfA0_JG0b9wX_z2qGO-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1130" y="110" as="sourcePoint" />
             <mxPoint x="1130" y="166" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l7MfA0_JG0b9wX_z2qGO-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Tracking&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How are we tracking the value of CM right now?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What report / tool is available?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What key measure we use?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Any pain points?&amp;nbsp;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="l7MfA0_JG0b9wX_z2qGO-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Tracking&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How are we tracking the value of CM right now?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What report / tool is available?&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;What key measure we use?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Any pain points?&amp;nbsp;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1070" y="415" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lSl4pjA7ELYpv_rtDZ8I-1" value="1. Saving, how it change over time. -&amp;gt; you can see a change&lt;div&gt;2. actual mix optimization -&amp;gt; how much from consolidated case versus Jay&#39;s working on. % case that is RAP, % case is ACCP, PM needs to try to optimize&lt;/div&gt;&lt;div&gt;- dashboard to see where can we squeeze, for insights, build new business case model&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- SSM low engagement in these care model but no other.&amp;nbsp;&lt;/div&gt;&lt;div&gt;- additional insights for how to drive next steps&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="640" width="935" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
